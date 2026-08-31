@@ -179,7 +179,8 @@ the network dense enough to matter.
 ### E. Grants & city seed — launch only
 One-time money (highway-safety grants, downtown-vitality funds, community
 foundations) for the pilot's fixed costs. Treated strictly as seed, never as
-the operating model.
+the operating model. Live applications — the DKA Quality of Life grant and
+the THSO highway-safety cycle — are tracked in [FUNDING.md](FUNDING.md).
 
 **Recommended architecture:** A as the base (the coffee costs the program
 nothing in cash — the shop absorbs it as CAC), B as the community flywheel and
@@ -267,6 +268,8 @@ ridership."
   what the program provides — it does not lean on a pre-existing free service.
 
 ### Outreach sequence
+Ready-to-send first-contact emails for the partners below live in
+[OUTREACH.md](OUTREACH.md).
 1. **City + KPD first** (credibility unlocks everything else) — one-pager + this site.
 2. **3 anchor coffee shops** (redemption must exist before issuance; they
    co-design the funding model).
