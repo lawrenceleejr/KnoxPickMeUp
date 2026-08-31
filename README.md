@@ -21,7 +21,7 @@ Three pages, one static site — each aimed at a different audience:
 
 | Page | Audience | What it does |
 |---|---|---|
-| [`index.html`](https://knoxpickmeup.org/) | **Public** — patrons, partners, press | The program site: how it works, why it matters, the card, an OpenStreetMap map of participating shops/bars and the free garages, partner pitch, FAQ. Every card’s QR lands patrons here, on the shop map (the places that redeem it). Linked everywhere. |
+| [`index.html`](https://knoxpickmeup.org/) | **Public** — patrons, partners, press | The program site: how it works, why it matters, the card, an OpenStreetMap map of participating shops/bars and the free municipal garages, partner pitch, FAQ. Every card’s QR lands patrons here, on the shop map (the places that redeem it). Linked everywhere. |
 | [`/redeem/`](https://knoxpickmeup.org/redeem/) | **Business** — coffee-shop baristas | The card scanner. Opened from the shop's register QR (`?shop=slug`, with a dropdown fallback), it scans a card's QR with the phone camera, shows live detection feedback, and logs the redemption — with duplicate/voided-card rejection, offline queueing, manual entry, and a stop button. Runs in labeled demo mode until the backend is configured. |
 | [`/dashboard/`](https://knoxpickmeup.org/dashboard/) | **Admin** — you, and anyone you hand the link | Live program numbers from the Sheet: issued/redeemed/rate tiles, integrity counters, redemptions over time, to-shop and from-bar rankings, the bar→shop flow matrix, latest activity. Unlinked and unindexed but freely shareable — it exposes venue names, timestamps, and counts only, never patron data or serials. |
 
@@ -142,7 +142,13 @@ the repo's CSVs, re-paste the script, update `SCRIPT_URL` in two files.
 
 ## Publishing the site
 
-GitHub Pages is configured to deploy from the `main` branch (Settings → Pages),
-so every push to `main` republishes
-<https://knoxpickmeup.org/> automatically. No build
-tooling required.
+Every push to `main` republishes <https://knoxpickmeup.org/> automatically, via
+the *Deploy site* workflow ([`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)).
+There is still no build step — the workflow uploads the repo as-is; its one job
+is to inject the `CARTO_TILE_URL` secret into the map so the CARTO API key never
+lands in git. Unset the secret and the site falls back to CARTO's keyless public
+basemap, so local checkouts and forks work unchanged.
+
+This requires **Settings → Pages → Source = GitHub Actions**; the setup, and
+which credentials here are public-by-design versus genuinely secret, are in
+[`design/ANALYTICS.md`](design/ANALYTICS.md#keys--secrets--whats-public-by-design).

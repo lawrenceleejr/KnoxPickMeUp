@@ -225,7 +225,7 @@ currently get — plus your logo in every bar downtown. You control your exposur
 with a monthly cap while we prove the ticket math together."
 - Redemption workflow: take the card, log the serial, done. Monthly data shared
   back (redemptions, average ticket uplift) so the value is visible.
-- Recruit shops within a short walk of major garages first (Gay Street, Market
+- Recruit shops within a short walk of major municipal garages first (Gay Street, Market
   Square, Old City).
 - Coffee shops help pick the funding architecture (Section 4) — real
   co-ownership, not a terms sheet.

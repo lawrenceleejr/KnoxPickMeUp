@@ -1,0 +1,79 @@
+# Deploy the site to GitHub Pages, injecting the CARTO tile URL from a secret.
+#
+# The repo previously deployed straight from the main branch. It deploys through
+# this workflow instead so the CARTO account's API key can live in a repository
+# secret rather than in git history — set Settings → Pages → Source to
+# "GitHub Actions" or this file does nothing.
+#
+# IMPORTANT: this keeps the key out of the REPO, not out of the SITE. The browser
+# fetches the tiles, so the key is readable in devtools on the deployed page.
+# Restrict it to knoxpickmeup.org in the CARTO dashboard and scope it read-only —
+# that, not this workflow, is what makes a leak harmless.
+#
+# Secret: CARTO_TILE_URL — the full Leaflet tile template including the key, e.g.
+#   https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?api_key=XXXX
+# Unset (forks, or before it's configured) the site deploys with CARTO's keyless
+# public basemap, exactly as the committed index.html does.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# never cancel a half-finished deploy; queue instead
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # The key is passed through env, never through the command line, so it
+      # can't surface in a process list or an echoed command.
+      - name: Inject CARTO tile URL
+        env:
+          CARTO_TILE_URL: ${{ secrets.CARTO_TILE_URL }}
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, sys
+          url = os.environ.get('CARTO_TILE_URL', '').strip()
+          if not url:
+              print('::notice::CARTO_TILE_URL not set — deploying with the keyless public basemap')
+              sys.exit(0)
+          if not url.startswith('https://'):
+              print('::error::CARTO_TILE_URL must start with https://')
+              sys.exit(1)
+          page = pathlib.Path('index.html')
+          html = page.read_text()
+          marker = "const CARTO_TILE_URL = '';"
+          if marker not in html:
+              print('::error::injection marker missing from index.html — did the tile layer get refactored?')
+              sys.exit(1)
+          # json.dumps escapes quotes/backslashes, so the value can't break out
+          # of the JS string literal
+          page.write_text(html.replace(marker, f'const CARTO_TILE_URL = {json.dumps(url)};', 1))
+          print('CARTO tile URL injected')   # never print the value itself
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      # uploads the repo root, matching what branch-deploy served; the action
+      # excludes .git and .github itself
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

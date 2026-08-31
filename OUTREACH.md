@@ -41,7 +41,7 @@ with the City in full. The coffee is carried by the shops as customer
 acquisition and the rides are KAT's in-kind contribution, so the City ask is
 mostly *not* money:
 
-1. Co-promote what's already true — downtown's public garages and lots are
+1. Co-promote what's already true — downtown's municipal garages and lots are
    free evenings and weekends, so the car can wait until morning;
 2. Include the launch in City communications, ideally tied to a high-visibility
    weekend;
@@ -101,7 +101,7 @@ With thanks,
 Dear [Name],
 
 The single biggest reason people drive home impaired from downtown is the
-parked car — "I can't just leave it." Except downtown, they can: public
+parked car — "I can't just leave it." Except downtown, they can: municipal
 garages and lots are already free evenings and weekends. **Knox Pick-Me-Up**
 is a road-safety program built on advertising exactly that.
 
@@ -115,7 +115,7 @@ Our asks are about accuracy and reach, not money:
 1. **Confirm the official language** on evening/weekend free parking and
    overnight stays — posted hours, any move-out times, event-pricing
    exceptions — so every coaster and sign we print states it exactly right;
-2. **Co-promotion in the garages** — elevator and pay-station signage saying
+2. **Co-promotion in the municipal garages** — elevator and pay-station signage saying
    "left the car? good call" (we supply all artwork);
 3. Your guidance on facilities where overnight parking *isn't* ideal, and
    introductions to private lot operators who might join as sponsors.

@@ -134,7 +134,7 @@ def night_side(bars, logo_path, qr_url, sponsor=''):
     hsz = fit(fraunces, 'Drove downtown tonight?', 24, chord(136))
     b.append(text(fraunces, 'Drove downtown tonight?', hsz, CX, 136, PAPER, anchor='middle')[0])
     steps = [
-        'Leave the car — garages are free overnight.',
+        'Leave the car — municipal garages are free overnight.',
         'Book a ride home. Show your bartender.',
         'Free coffee when you’re back in the morning.',
     ]

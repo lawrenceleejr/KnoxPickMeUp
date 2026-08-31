@@ -34,7 +34,7 @@ UPI = 100        # signage user units per inch (posters 850x1100 = 8.5x11 in)
 
 STEPS = [
     'Booked a safe ride home? Show your bartender before you leave.',
-    'Leave the car — downtown garages are free overnight.',
+    'Leave the car — municipal downtown garages are free overnight.',
     'Come back in the morning: a free large coffee, and a free KAT ride to your car.',
 ]
 

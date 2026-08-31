@@ -86,7 +86,7 @@ def card_back_svg(sponsor=''):
     # how it works — three numbered lines
     steps = [
         ('1', 'Booked a safe ride home? Show your bartender before you leave.'),
-        ('2', 'Sleep easy — most downtown garages & lots are free evenings & weekends.'),
+        ('2', 'Sleep easy — most municipal garages & lots are free evenings & weekends.'),
         ('3', 'Ride KAT back free on this card — coffee’s on us.'),
     ]
     for i, (num, line) in enumerate(steps):
