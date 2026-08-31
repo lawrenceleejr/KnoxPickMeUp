@@ -179,7 +179,8 @@ the network dense enough to matter.
 ### E. Grants & city seed — launch only
 One-time money (highway-safety grants, downtown-vitality funds, community
 foundations) for the pilot's fixed costs. Treated strictly as seed, never as
-the operating model.
+the operating model. Live applications — the DKA Quality of Life grant and
+the THSO highway-safety cycle — are tracked in [FUNDING.md](FUNDING.md).
 
 **Recommended architecture:** A as the base (the coffee costs the program
 nothing in cash — the shop absorbs it as CAC), B as the community flywheel and

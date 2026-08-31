@@ -206,7 +206,7 @@ Beyond the five above, in rough order of value to the pilot:
 
 | Partner | The angle |
 |---|---|
-| **Tennessee Highway Safety Office** | Grant money for exactly this category ([PROGRAM.md §4E](PROGRAM.md)); the pilot's metrics plan is already grant-shaped |
+| **Tennessee Highway Safety Office** | Grant money for exactly this category ([PROGRAM.md §4E](PROGRAM.md)); the pilot's metrics plan is already grant-shaped — application prep and timing in [FUNDING.md](FUNDING.md) |
 | **University of Tennessee / UT Athletics** | Football Saturdays are the peak-risk nights; gameday comms and campus channels reach the exact crowd (the card is already Vol orange) |
 | **Knox County Health Department** | Already the program's data source; public-health credibility and help with honest evaluation |
 | **UT Medical Center (trauma services)** | Hospitals fund injury-prevention outreach; a natural sponsor tier ([PROGRAM.md §4C](PROGRAM.md)) |
