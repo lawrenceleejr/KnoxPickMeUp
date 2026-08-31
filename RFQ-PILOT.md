@@ -19,24 +19,30 @@ shop's template before the final run. Samples of every piece are public at
 
 ## 1. The order — what a 6-month, 6-venue pilot needs made
 
+Quantities build in spares: the venue pieces are padded well past the bare
+install so a torn cling or a soggy tent never waits on a reprint. The two
+rate-driven consumables are handled differently — serialized cards are never
+over-printed (unused serials are a tracking liability; a reorder continues the
+sequence), and coasters get their margin from the 10,000 price tier.
+
 | # | Piece | Spec | Quantity | Sizing logic |
 |---|---|---|---|---|
 | 1 | **Card books** (the vouchers) | 3.5″ × 2″ cards, 14pt **uncoated** cover (must take ballpoint), 4/4 — front variable data (unique QR + serial per card), back static; micro-perforated; books of 50, padded/stapled at top with chipboard backer + printed pack cover sheet per book (3.5″ × 4.67″, supplied); quote with and without a 0.75″ bound stub | **2,500 cards / 50 books** (price breaks at 1,000 and 5,000) | ≈32 cards/bar/week across 3 bars for 26 weeks — the pilot ceiling. Serials continue across runs, so a hot pilot just reorders at month 3 with zero waste |
-| 2 | **Coasters** (the advertising) | 4″ round, 60pt pulpboard, 4/4 — two different sides (navy "night" side, paper "day" side), both with QR | **7,500** (price breaks at 5,000 / 10,000) | 2,500/bar ≈ 14/bar/night for 26 weeks. Request a printed sample first — the night side floods navy (show-through check). Venue names print on the rim, so a reprint refreshes the roster if it grows |
-| 3 | **Program Details booklet** | 8.5″ × 11″ portrait, 44-page interior 4/4 on 80–100# uncoated text + 4/4 cover on uncoated cover stock, perfect bound (saddle-stitch or coil fine at this count — shop's call); files exist with 0.125″ bleed ([design/](design/README.md)) | **10** | One per venue (6) + City, KPD, KAT + 1 spare — not time-scaled |
-| 4 | **Window clings** | 5.6″ round "Pick-Me-Up Partner" decal, full color; static cling or removable low-tack vinyl, applied inside the glass facing out | **12** | One per venue + spares/second doors (shops often have a 10–12 minimum anyway) |
-| 5 | **Table tents** | 4″ × 10″ flat, 4/0 on 14pt (or 100#) uncoated cover, scored at center → folds to a 4″ × 5″ A-frame; ship flat | **150** | ~25/venue over the pilot — tents live on wet bar tables and get replaced |
-| 6 | **Restroom signs** | 8.5″ × 11″, 4/0 on 100# uncoated cover; quote lamination (they hang in bar restrooms) | **30** | 6 venues × ~4 restrooms/stalls = 24 up, plus replacements |
-| 7 | **Community flyers** | 8.5″ × 11″, 4/0 on 100# uncoated text | **150** | Bulletin boards, garages, campus — refreshed through the pilot |
-| 8 | **Staff kit** | Letter-size, 4/0, **laminated**: barista one-pager (by every register) + bar onboarding sheet; plus register QR cards ~3″ × 3″ on card stock, laminated | **12 sheets + 6 QR cards** | 2 registers × 3 shops + 1/bar + spares; 2 register QRs per shop |
-| 9 | *Optional:* **Stickers** | Die-cut/kiss-cut vinyl on transparent ground, cut to outline with white border: mark (~4″ tall) + wordmark (~3.4″ wide) | **300** (150 each) | Giveaways — laptops, bottles; cheapest brand-in-hand |
-| 10 | *Optional:* **Sponsor one-sheet** | 8.5″ × 11″, 4/0 on 100# text | **25** | Outreach leave-behind while recruiting sponsors |
+| 2 | **Coasters** (the advertising) | 4″ round, 60pt pulpboard, 4/4 — two different sides (navy "night" side, paper "day" side), both with QR | **7,500** (price breaks at 5,000 / 10,000) | 2,500/bar ≈ 14/bar/night for 26 weeks. Request a printed sample first — the night side floods navy (show-through check). Venue names print on the rim, so a reprint refreshes the roster if it grows; if the 10,000 tier quotes close, take it — the ad piece is the worst stockout |
+| 3 | **Program Details booklet** | 8.5″ × 11″ portrait, 44-page interior 4/4 on 80–100# uncoated text + 4/4 cover on uncoated cover stock, perfect bound (saddle-stitch or coil fine at this count — shop's call); files exist with 0.125″ bleed ([design/](design/README.md)) | **15** | One per venue (6) + City, KPD, KAT, parking, DKA (5) + 4 spares for sponsors and second copies — not time-scaled |
+| 4 | **Window clings** | 5.6″ round "Pick-Me-Up Partner" decal, full color; static cling or removable low-tack vinyl, applied inside the glass facing out | **20** | One per venue + a full replacement set — sun-fade, peel-offs, second doors, and venues that join mid-pilot |
+| 5 | **Table tents** | 4″ × 10″ flat, 4/0 on 14pt (or 100#) uncoated cover, scored at center → folds to a 4″ × 5″ A-frame; ship flat | **200** | ~33/venue over the pilot — tents live on wet bar tables and get replaced |
+| 6 | **Restroom signs** | 8.5″ × 11″, 4/0 on 100# uncoated cover; quote lamination (they hang in bar restrooms) | **50** | 6 venues × ~4 restrooms/stalls = 24 up + a full spare set — restroom signs get soggy and walk off |
+| 7 | **Community flyers** | 8.5″ × 11″, 4/0 on 100# uncoated text | **250** | Bulletin boards, garages, campus — re-postered through the pilot |
+| 8 | **Staff kit** | Letter-size, 4/0, **laminated**: barista one-pager (by every register) + bar onboarding sheet; plus register QR cards ~3″ × 3″ on card stock, laminated | **18 sheets + 9 QR cards** | 2 registers × 3 shops + 1/bar, plus a spare set per venue; 3 register QRs per shop |
+| 9 | *Optional:* **Stickers** | Die-cut/kiss-cut vinyl on transparent ground, cut to outline with white border: mark (~4″ tall) + wordmark (~3.4″ wide) | **500** (250 each) | Giveaways — laptops, bottles; cheapest brand-in-hand |
+| 10 | *Optional:* **Sponsor one-sheet** | 8.5″ × 11″, 4/0 on 100# text | **40** | One per prospect in [OUTREACH.md](OUTREACH.md), plus spares |
 
 **Ballpark** (for sanity, not the quote): cards ≈ $0.08–0.20 ea → $250–650
 including books/covers; coasters ≈ $0.08–0.15 ea → $600–1,150; everything else
-is small runs, roughly $700–1,300 combined. Expect the whole kit to land
-**~$2,000–3,500** — comfortably inside the $4,000 printing line in the 6-month
-pilot budget in [PROGRAM.md §4](PROGRAM.md). Put the itemized quote, not the
+is small runs, roughly $1,000–1,800 combined with the spares. Expect the whole
+kit to land **~$2,500–4,000** — right at the $4,000 printing line in the
+6-month pilot budget in [PROGRAM.md §4](PROGRAM.md), spares included. Put the itemized quote, not the
 ballpark, in front of the city.
 
 ## 2. Copy-paste: the Graphic Creations quote form
@@ -55,7 +61,7 @@ Field-by-field for [graphiccreations.com/quote](https://www.graphiccreations.com
 | Project Due Date | ~6 weeks out (timing is explained in the description — quote first, production on city approval) |
 | Preferred Method of Delivery | In-Store Pick Up – Knoxville |
 | Delivery Address | Yours |
-| Project Budget | $2,000–3,500 |
+| Project Budget | $2,500–4,000 |
 | Service Needed | Multiple Services |
 | Description | The block below |
 | File upload (required) | `design/Knox-Pick-Me-Up-Program-Details.pdf` — one PDF that shows every piece (JPG/PNG/PDF only, 64 MB max) |
@@ -87,28 +93,28 @@ Field-by-field for [graphiccreations.com/quote](https://www.graphiccreations.com
 > "day" side). We'd like a printed sample before the full run to check
 > show-through of the navy flood.
 >
-> 3) PROGRAM BOOKLETS — 10 copies. 8.5×11″ portrait, 44-page interior 4/4 on
+> 3) PROGRAM BOOKLETS — 15 copies. 8.5×11″ portrait, 44-page interior 4/4 on
 > 80# or 100# uncoated text, 4/4 cover on uncoated cover stock, perfect bound —
 > open to saddle-stitch or coil at this page count, your recommendation. Files
 > exist with 0.125″ bleed.
 >
-> 4) WINDOW CLINGS — 12. 5.6″ round full-color decal; static cling or
+> 4) WINDOW CLINGS — 20. 5.6″ round full-color decal; static cling or
 > removable low-tack vinyl, applied inside the glass facing out.
 >
-> 5) TABLE TENTS — 150. 4×10″ flat, 4/0 on 14pt (or 100#) uncoated cover,
+> 5) TABLE TENTS — 200. 4×10″ flat, 4/0 on 14pt (or 100#) uncoated cover,
 > scored at the center to fold into a 4×5″ A-frame; ship flat.
 >
-> 6) RESTROOM SIGNS — 30. 8.5×11″, 4/0 on 100# uncoated cover; please also
+> 6) RESTROOM SIGNS — 50. 8.5×11″, 4/0 on 100# uncoated cover; please also
 > price laminating these (they hang in bar restrooms).
 >
-> 7) COMMUNITY FLYERS — 150. 8.5×11″, 4/0 on 100# uncoated text.
+> 7) COMMUNITY FLYERS — 250. 8.5×11″, 4/0 on 100# uncoated text.
 >
-> 8) STAFF KIT — 12 letter-size sheets, 4/0, laminated, plus 6 register QR
+> 8) STAFF KIT — 18 letter-size sheets, 4/0, laminated, plus 9 register QR
 > cards approx. 3×3″ on card stock, laminated.
 >
-> 9) OPTIONAL — please quote separately: 300 die-cut vinyl stickers (150 of a
-> ~4″ mark, 150 of a ~3.4″ wordmark; art on transparent ground, cut to outline
-> with a white border), and 25 letter-size sponsor one-sheets, 4/0 on 100# text.
+> 9) OPTIONAL — please quote separately: 500 die-cut vinyl stickers (250 of a
+> ~4″ mark, 250 of a ~3.4″ wordmark; art on transparent ground, cut to outline
+> with a white border), and 40 letter-size sponsor one-sheets, 4/0 on 100# text.
 >
 > Timing: we need the quote for a city budget submission; production follows
 > approval, so no rush pricing is needed. The QR codes on cards, coasters, and
