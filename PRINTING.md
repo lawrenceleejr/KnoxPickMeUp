@@ -5,6 +5,10 @@ order, exact specs to quote, how to generate the files, and what to check
 before a run. The physical kit is the program — the cards are the
 redeemable item, the packs are the fraud control, the coasters are the ad.
 
+> **Ordering for the pilot?** [RFQ-PILOT.md](RFQ-PILOT.md) is the full
+> 1-year, 6-venue order — quantities, specs, and a copy-paste quote-form
+> request — sized so the resulting quote is the city budget's printing line.
+
 ---
 
 ## 1. What gets printed
